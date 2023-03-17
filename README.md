@@ -1,6 +1,6 @@
-# docker-class
+## docker-class
 
-#Instalacja Dockera na Ubuntu
+# Instalacja Dockera na Ubuntu
 
 ```bash
 sudo apt update
