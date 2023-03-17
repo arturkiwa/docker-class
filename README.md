@@ -26,3 +26,21 @@ sudo apt install docker-ce
 ```bash
 sudo systemctl status docker
 ```
+
+# Instalacja docker-compose
+
+```bash
+mkdir -p ~/.docker/cli-plugins/
+```
+```bash
+mkdir -p ~/.docker/cli-plugins/
+```
+```bash
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+```
+```bash
+chmod +x ~/.docker/cli-plugins/docker-compose
+```
+```bash
+docker compose version
+```
